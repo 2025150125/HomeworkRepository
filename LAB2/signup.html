@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Signup Page</title>
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+    </head>
+
+    <body>
+        <p>
+            <h1>Welcome to  INTERNET-PROGRAMMING MOVIE SITE</h1>
+        </p>
+
+        <p class = "link">
+            <a href = "file:///C:/Users/saech/Desktop/homework/internetprogramming/HomeworkRepository/LAB2/login.html">로그인</a>
+        </p>
+        
+        <form method = "get" autocomplete = "off" action = "https://2025150125.github.io/HomeworkRepository/LAB2/login.html">
+            <p>
+                <label>이름:
+                    <input name = "name" type = "text" autofocus />
+                </label>
+            </p>
+
+            <p>
+                <label>생일:
+                    <input name = "birthday" type = "date" />
+                </label>
+            </p>
+
+            <p>
+                <label>성별:
+                    <label>남<input name = "gender" type = "radio" value = "man" /></label>
+                    <label>여<input name = "gender" type = "radio" value = "woman" /></label>
+                </label>
+            </p>
+
+            <p>
+                <label>학년:
+                    <input name = "grade" type = "number" min = "1" max = "4" step = "1" />
+                </label>
+            </p>
+
+            <p>
+                <label>ID:
+                    <input name = "id" type = "text" required />
+                </label>
+            </p>
+
+            <p>
+                <label>비밀번호:
+                    <input name = "password" type = "password" required />
+                </label>
+            </p>
+
+            <p>
+                <label>이메일:
+                    <input name = "email" type = "email" placeholder="example@domain.com" />
+                </label>
+            </p>
+
+            <p>
+                <label>보안 질문:
+                    <select name = "question">
+                        <option selected>질문을 선택하세요:</option>
+                        <option>출신 초등학교는?</option>
+                        <option>가장 좋아하는 음식은?</option>
+                        <option>가장 좋아하는 노래는?</option>
+                    </select>
+                </label>
+            </p>
+
+            <p>
+                <label>답변:
+                    <input name = "answer" type = "text" />
+                </label>
+            </p>
+
+            <p style = "text-align: center;">
+                <span class = "signup"><a href = "#">Sign Up</a></span>
+                <span class = "cancel"><a href = "#">Cancel</a></span>
+            </p>
+        </form>
+    </body>
+</html>
